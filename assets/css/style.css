@@ -1,0 +1,55 @@
+div#content-box {
+	background-color: red;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 140px;
+	height: 350px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 80px;
+	color: white;
+
+}
+
+button#start-button {
+	height: 80px;
+	width: 280px;
+	font-size: 25px;
+	border-color: white;
+	background-color: pink;
+	text-align: center;
+}
+
+div#quiz-content {
+	font-size: 14px;
+	background-color: red;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	height: 1150px;
+}
+
+button#submitButton {
+	height: 40px;
+	width: 140px;
+	font-size: 18px;
+	border-color: white;
+	background-color: pink;
+	text-align: center;
+}
+
+div#results {
+	font-size: 18px;
+	background-color: red;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 140px;
+}
+
+div.lineUp {
+	margin-left: 180px;
+	text-align: left;
+}

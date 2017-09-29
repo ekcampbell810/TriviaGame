@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trivia Game</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+
+	<body = background = "assets/images/TSbackground.gif">
+
+		<div id = "content-box">
+			<br>
+			Totally Taylor Trivia
+			<br>
+
+			<button id="start-button"> START </button>
+
+			<div id="timer"></div>
+
+			<div id = "quiz-content">
+				<!-- Question 1 -->
+				<div class="lineUp">
+					<h2>1. What was Taylor Swift's first #1 song?</h2>
+					<input type="radio" name="q1" value="a">a. Teardrops on My Guitar<br>
+					<input type="radio" name="q1" value="b">b. Tim McGraw<br>
+					<input type="radio" name="q1" value="c">c. Love Song<br>
+					<input type="radio" name="q1" value="d">d. Our Song<br>
+				</div>
+				<!-- Question 2 -->
+				<div class="lineUp">
+					<h2>2. What was Taylor Swift's middle name?</h2>
+					<input type="radio" name="q2" value="a">a. Alison<br>
+					<input type="radio" name="q2" value="b">b. Rebecca<br>
+					<input type="radio" name="q2" value="c">c. Beth<br>
+					<input type="radio" name="q2" value="d">d. She has no middle name<br>
+				</div>
+				<!-- Question 3 -->
+				<div class="lineUp">
+					<h2>3. What was the title of Taylor Swift's third album?</h2>
+					<input type="radio" name="q3" value="a">a. Fearless<br>
+					<input type="radio" name="q3" value="b">b. Speak Now<br>
+					<input type="radio" name="q3" value="c">c. Red<br>
+					<input type="radio" name="q3" value="d">d. 1989<br>
+				</div>
+				<!-- Question 4 -->
+				<div class="lineUp">
+					<h2>4. What is the names of Taylor Swift's two cats?</h2>
+					<input type="radio" name="q4" value="a">a. Benson and Grey<br>
+					<input type="radio" name="q4" value="b">b. Olivia and Red<br>
+					<input type="radio" name="q4" value="c">c. Meredith and Grey<br>
+					<input type="radio" name="q4" value="d">d. Olivia and Meredith<br>
+				</div>
+				<!-- Question 5 -->
+				<div class="lineUp">
+					<h2>5. When was Taylor Swift born?</h2>
+					<input type="radio" name="q5" value="a">a. December 13, 1989<br>
+					<input type="radio" name="q5" value="b">b. August 5, 1992<br>
+					<input type="radio" name="q5" value="c">c. November 22, 1984<br>
+					<input type="radio" name="q5" value="d">d. July 10, 1990<br>
+				</div>
+				<!-- Question 6 -->
+				<div class="lineUp">
+					<h2>6. What 2010 movie did Taylor Swift star in?</h2>
+					<input type="radio" name="q6" value="a">a. She never starred in a movie<br>
+					<input type="radio" name="q6" value="b">b. Valentine's Day<br>
+					<input type="radio" name="q6" value="c">c. Twilight: Eclipse<br>
+					<input type="radio" name="q6" value="d">d. The Blind Side<br>
+				</div>
+				<!-- Question 7 -->
+				<div class="lineUp">
+					<h2>7. What is Taylor Swift's brother's name?</h2>
+					<input type="radio" name="q7" value="a">a. John<br>
+					<input type="radio" name="q7" value="b">b. Ben<br>
+					<input type="radio" name="q7" value="c">c. Declan<br>
+					<input type="radio" name="q7" value="d">d. Austin<br>
+				</div>
+				<!-- Question 8 -->
+				<div class="lineUp">
+					<h2>8. Where is Taylor Swift's hometown?</h2>
+					<input type="radio" name="q8" value="a">a. Wyomissing, Pennysylvania<br>
+					<input type="radio" name="q8" value="b">b. Baton Rouge, Louisiana<br>
+					<input type="radio" name="q8" value="c">c. Nashville, Tennessee<br>
+					<input type="radio" name="q8" value="d">d. New York City, New York<br>
+				</div>
+
+				<br>
+				<br>
+				
+				<button id="submitButton" onclick="submit()">Submit</button>
+
+				<br>
+				<br>
+				<br>
+
+			</div>
+
+			<div id="results">
+
+				<div id="results-correct"></div>
+				<br>
+				<div id="results-incorrect"></div>
+				<br>
+				<div id="results-missed"></div>
+			</div>
+
+		</div>
+
+		
+
+		<!--jQuery -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+		<!--JavaScript-->
+		<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+	</body>
+
+</html>
